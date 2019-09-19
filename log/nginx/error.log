@@ -1,4 +1,0 @@
-2019/09/17 02:05:38 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.19.0.1, server: , request: "GET / HTTP/1.1", upstream: "uwsgi://172.19.0.4:8080", host: "localhost"
-2019/09/17 02:05:38 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.19.0.1, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "uwsgi://172.19.0.4:8080", host: "localhost"
-2019/09/17 02:11:10 [error] 6#6: *1 connect() failed (113: No route to host) while connecting to upstream, client: 172.19.0.1, server: , request: "GET / HTTP/1.1", upstream: "uwsgi://172.19.0.4:8080", host: "localhost"
-2019/09/17 02:11:10 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.19.0.1, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "uwsgi://172.19.0.4:8080", host: "localhost"

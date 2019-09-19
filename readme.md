@@ -32,6 +32,16 @@ Si deseas agregar nuevas librerías necesitas modificar el archivo **requirement
  sudo docker-compose up --build 
  ```
 
+## Connectarse a la base de datos.
+
+Debe remplazar en los datos de conexión de su aplicación **localhost** por **db**
+*Ejemplo:*
+ ```python
+ import mysql.connector as mysql
+ db = mysql.connect(host='db', user='root', password='password', database='flask')
+ ```
+
+
 ## Agradecimiento
 
 Este entorno  de desarrollo es gracias  el tutorial de [Building a Flask app with Docker](https://pythonise.com/feed/flask/building-a-flask-app-with-docker-compose)
